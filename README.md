@@ -36,6 +36,9 @@ En este documento tiene las funciones utilizadas para el procesamiento de los tw
 En este documento se manda a llamar las funciones definidas en el documento anterior, todo para llegar a las variables **train_sents** y **test_sents**, donde la primera tiene la información de 9 de las 10 capas para entrenar el modelo, la segunda tiene la capa restante para evaluar el sistema.   
 ### Entrenamiento:
 En esta parte del código se implementa el algoritmo Conditional Random Fields, se utiliza la información antes mencionada para entrenar. En cada iteración se elige una capa diferente de evaluación, dejando las 9 capas restantes como entrenamiento. Se despliega la evaluación realizada automáticamente por el módulo **sklearn_crfsuite**, esta es por palabra, es decir, qué tan bien se detectó cada etiqueta. 
+### Evaluación:
+En esta última parte del código se evalúa el algoritmo con el sistema de evaluación propuesto, este es por tweet, es decir, qué tan bien se detecta la negación en todo el Tweet.
+
 
 
 ---
