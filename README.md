@@ -22,8 +22,7 @@ nlp = spacy.load("es_core_news_lg")
 ## Ejecutando el código ⚙️
 
 El código está dividido en secciónes...
-#### Extracción de las etiquetas de negación reales del corpus:
-Se 
+## 
 
 ---
 😊
