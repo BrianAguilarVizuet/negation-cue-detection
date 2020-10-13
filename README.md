@@ -2,11 +2,17 @@
 
 _Identificación automática de expresiones de negación en un corpus de Twitter en Español._
 
-## Pre-requisitos 📋
+## Requisitos 📋
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Las librerías utilizadas son:_
 
-* Spacy
+```
+xml.etree.ElementTree
+spacy (modelo "es_core_news_lg")
+tabulate
+copy
+sklearn_crfsuite
+```
 
 
 ### Pre-requisitos 📋
