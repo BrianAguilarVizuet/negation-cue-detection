@@ -15,8 +15,8 @@ _Las librerías utilizadas son:_
 ```
 ### Instalación de spacy: 
 
-$ python -m spacy download es_core_news_lg
-import spacy
+$ python -m spacy download es_core_news_lg  
+import spacy  
 nlp = spacy.load("es_core_news_lg")
 
 ## Ejecutando el código ⚙️
