@@ -7,11 +7,11 @@ _Identificación automática de expresiones de negación en un corpus de Twitter
 _Las librerías utilizadas son:_
 
 ```
-xml.etree.ElementTree
-spacy (modelo "es_core_news_lg")
-tabulate
-copy
-sklearn_crfsuite
+* xml.etree.ElementTree
+* spacy (modelo "es_core_news_lg")
+* tabulate
+* copy
+* sklearn_crfsuite
 ```
 
 
