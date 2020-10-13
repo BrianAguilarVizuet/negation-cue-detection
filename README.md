@@ -32,6 +32,9 @@ En este documento tiene las funciones utilizadas para el procesamiento de los tw
 3) Se junta el token, la etiqueta POS, el etiquetado real de negaciones y se le da un nuevo formato para poder utilizarlo como información de entrenamiento.
 4) El total de tweets se separa en 10 capas, cada una con muestras estratificadas, es decir, la misma proporción de tweets con negación, que sin negación.
 
+### Main:
+En este documento se manda a llamar las funciones definidas en el documento anterior, todo para llegar a las variables *train_sents* y *test_sents*, donde la primera tiene la información de nueve de las 10 capas para entrenar el modelo, la segunda tiene la capa restante para evaluar el sistema. 
+
 
 ---
 😊
