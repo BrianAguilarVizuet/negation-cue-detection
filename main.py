@@ -1,3 +1,9 @@
+import xml.etree.ElementTree as ET #Librería para procesar archivos .xml
+import spacy #Librería spacy. 
+nlp = spacy.load("es_core_news_lg") #Modelo grande en español de Spacy.
+from tabulate import tabulate #Para presentar los resultados en tablas.
+import copy
+
 ##############
 # Para extraer las etiquetas reales...
 
