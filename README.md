@@ -13,33 +13,11 @@ _Las librerías utilizadas son:_
 * copy
 * sklearn_crfsuite
 ```
+### Instalación de spacy: 
 
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
-### Instalación 
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+$ python -m spacy download es_core_news_lg
+>>> import spacy
+>>> nlp = spacy.load("es_core_news_lg")
 
 ## Ejecutando las pruebas ⚙️
 
