@@ -1,6 +1,6 @@
-# Negation-cue-detection
+# Identificacion de Negaciones
 
-_Detección de negación en tweets escritos en español mediando el algoritmo Conditional Random Fields._
+_Identificación automática de expresiones de negación en un corpus de Twitter en Español._
 
 ## Comenzando 🚀
 
